@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Zeybik",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Gunumuz Kutlu Olsun Sevgilim💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Beni seviyor musun?",                                    // First interaction
+            yesBtn: "Evet",                                             // Text for "Yes" button
+            noBtn: "Hayir",                                               // Text for "No" button
+            secretAnswer: "EVET! Seni çok seviyorum askimmm ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Beni ne kadar seviyorsun?",                          // For the love meter
+            startText: "Bu kadar mi?",                                   // Text before the percentage
+            nextBtn: "Ileri ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Sana bol kavgali ama birbirimizden kopmamali bir ask teklifim var kabul eder misin? 🌹", // The big question!
+            yesBtn: "Evet!",                                             // Text for "Yes" button
+            noBtn: "Hayir"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "OWWWWYESSS Ben seni senin beni sevdiginden daha cok seviyorum askimmmm 🥰",  // Shows when they go past 5000%
+        high: "Bende seni cok seviyorum askimmmmm 🚀💝",              // Shows when they go past 1000%
+        normal: "Asigim sanaaaaa 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Gunumuz kutlu olsun sevgilimmmmmm 💝💖💝💓",
+        message: "En güzel hislerimle ve en dogru kisiyle girdigimi iliklerime kadar hissettiğim bu günde bana eslik ettigin icin sana tesekkur ederim bitanem",
+        emojis: "💖💖💖💖💖💖💖"  // These will bounce around
     },
 
     // Color scheme for the website
